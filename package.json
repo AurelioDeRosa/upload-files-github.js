@@ -1,0 +1,24 @@
+{
+  "name": "upload-files-github.js",
+  "version": "1.0.0",
+  "description": "Demo that shows how to upload any file on GitHub using Github.js",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify js/main.js > dist.js && uglifyjs dist.js --compress --screw-ie8 --output dist.js"
+  },
+  "author": {
+    "name": "Aurelio De Rosa",
+    "email": "a.derosa@audero.it",
+    "web": "http://www.audero.it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AurelioDeRosa/upload-files-github.js.git"
+  },
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "github-api": "^0.10.6",
+    "uglify-js": "^2.5.0"
+  }
+}
